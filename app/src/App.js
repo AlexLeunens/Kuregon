@@ -1,5 +1,5 @@
 import './App.css';
-import CustomAppBar from './Components/AppBar'
+import CustomAppBar from './Components/CustomAppBar'
 import {
   BrowserRouter as Router,
   Switch,
