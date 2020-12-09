@@ -9,8 +9,8 @@ export class Post {
     @Column()
     title: string;
 
-    @Column()
-    content: string;
+    @Column({type: "mediumtext"})
+    content : string;
 
     @Column()
     date: Date;
