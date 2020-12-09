@@ -10,7 +10,8 @@ import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        backgroundColor: '#1c1c1c'
+        backgroundColor: '#1c1c1c',
+        marginBottom: '2vh',
     },
 
     title: {
@@ -111,7 +112,7 @@ const CustomAppBar = (props) => {
 }
 
 CustomAppBar.propTypes = {
-    categories: PropTypes.object.isRequired,
+    categories: PropTypes.array.isRequired,
 };
 
 export default CustomAppBar
