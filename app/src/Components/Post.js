@@ -64,7 +64,7 @@ const Post = (props) => {
 
 
 Post.propTypes = {
-    categories: PropTypes.array.isRequired,
+    post: PropTypes.object.isRequired,
 };
 
 

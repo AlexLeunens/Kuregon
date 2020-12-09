@@ -85,7 +85,7 @@ const CustomAppBar = (props) => {
                 </Typography>
 
                 {props.categories.map(category =>
-                    <Link className={classes.link} to={category.link}>
+                    <Link className={classes.link} to={category.link} key={category.name}>
                         <Typography className={classes.linkText} variant="h6" noWrap>
                             {category.name}
                         </Typography>

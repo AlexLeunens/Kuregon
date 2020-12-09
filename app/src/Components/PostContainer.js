@@ -37,7 +37,7 @@ const PostContainer = () => {
             alignItems="center"
         >
             {posts.map(post =>
-                <Post post={post}></Post>
+                <Post post={post} key={post.title}></Post>
             )}
         </Grid>
     )
