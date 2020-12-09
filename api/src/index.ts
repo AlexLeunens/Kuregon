@@ -81,7 +81,7 @@ createConnection().then(async connection => {
     })
 
 
-    const port = 3000
+    const port = 3008
     app.listen(port)
     console.log('Server listening on port ' + port + '...')
 
